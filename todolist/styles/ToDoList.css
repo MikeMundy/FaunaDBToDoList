@@ -1,0 +1,49 @@
+.main {
+    width: 400px;
+    display: inline-block;
+}
+
+.todolist {
+    width: 400px;
+    display: inline-block;
+}
+
+.todolist div {
+    border: 1px solid black;
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.todolist span:nth-of-type(2) {
+    float: right;
+}
+
+.addToDo {
+    width: 400px;
+    display: inline-block;
+}
+
+.addToDo input[type=text] {
+    float: left;
+    width: 355px;
+    height: 33px;
+    padding: 5px;
+}
+
+.addToDo button {
+    float: right;
+    height: 33px;
+}
+
+.radio {
+    width: 400px;
+    display: inline-block;
+    text-align: right;
+    height: 30px;
+}
+
+.radio label {
+    padding-left: 10px;
+}
